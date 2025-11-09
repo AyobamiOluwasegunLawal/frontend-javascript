@@ -3,7 +3,7 @@ namespace Subjects {
         experienceTeachingJava?: number;
     }
 
-    export class Jave extends Subject {
+    export class Java extends Subject {
         getRequirements(): string {
             return 'Here is the list of requirements for Java';
         }
