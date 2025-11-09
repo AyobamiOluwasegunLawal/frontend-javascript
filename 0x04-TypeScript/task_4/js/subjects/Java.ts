@@ -16,4 +16,12 @@ namespace Subjects {
             }
         }
     }
+
+    export const java = new Java();
+
+    console.log("Jave");
+    java.setTeacher(cTeacher);
+
+    console.log(java.getAvailableTeacher());
+    console.log(java.getRequirements());
 }

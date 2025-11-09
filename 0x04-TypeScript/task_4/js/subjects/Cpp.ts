@@ -16,4 +16,13 @@ namespace Subjects {
             }
         }
     }
+
+    export const cpp = new Cpp();
+
+    console.log("C++");
+    cpp.setTeacher(cTeacher);
+
+    console.log(cpp.getAvailableTeacher());
+    console.log(cpp.getRequirements());
 }  
+
