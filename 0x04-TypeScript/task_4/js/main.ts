@@ -1,22 +1,26 @@
-import {Cpp} from './subjects/Cpp';
-import {Java} from './subjects/Java';
-import {React} from './subjects/React';
-import {cTeacher} from './subjects/Teacher';
+import * as Subjects from "./subjects";
 
-const cpp = new Cpp();
+export const cpp = new Subjects.Cpp();
+export const java = new Subjects.Java();
+export const react = new Subjects.React();
+
+export const cTeacher: Subjects.Teacher = {
+  firstName: "John",
+  lastName: "Doe",
+  experienceTeachingC: 10,
+};
+
 console.log("C++");
 cpp.setTeacher(cTeacher);
-console.log(cpp.getAvailableTeacher());
 console.log(cpp.getRequirements());
+console.log(cpp.getAvailableTeacher());
 
-const java = new Java();
 console.log("Java");
 java.setTeacher(cTeacher);
-console.log(java.getAvailableTeacher());
 console.log(java.getRequirements());
+console.log(java.getAvailableTeacher());
 
-const react = new React();
 console.log("React");
 react.setTeacher(cTeacher);
-console.log(react.getAvailableTeacher());
 console.log(react.getRequirements());
+console.log(react.getAvailableTeacher());
