@@ -12,3 +12,21 @@ export const cTeacher: Teacher = {
   lastName: "Doe",
   experienceTeachingC: 10
 };
+
+//cpp subject
+console.log('C++')
+cpp.setTeacher(cTeacher);
+cpp.getRequirements();
+cpp.getAvailableTeacher();
+
+//java subject
+console.log('Java');
+java.setTeacher(cTeacher);
+java.getRequirements();
+java.getAvailableTeacher();
+
+//react subject
+console.log('React');
+react.setTeacher(cTeacher);
+react.getRequirements();
+react.getAvailableTeacher();
