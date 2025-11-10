@@ -16,12 +16,4 @@ namespace Subjects{
             }
         }
     }
-
-    export const react = new React();
-
-    console.log("React");
-    react.setTeacher(cTeacher);
-
-    console.log(react.getAvailableTeacher());
-    console.log(react.getRequirements());
 }
