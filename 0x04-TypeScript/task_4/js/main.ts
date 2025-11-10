@@ -22,8 +22,8 @@ cpp.getAvailableTeacher();
 //java subject
 console.log('Java');
 java.setTeacher(cTeacher);
-java.getRequirements();
-java.getAvailableTeacher();
+console.log(java.getRequirements());
+console.log(java.getAvailableTeacher());
 
 //react subject
 console.log('React');
