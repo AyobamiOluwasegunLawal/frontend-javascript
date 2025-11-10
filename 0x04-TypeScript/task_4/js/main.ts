@@ -10,5 +10,5 @@ export const react = new React();
 export const cTeacher: Teacher = {
   firstName: "John",
   lastName: "Doe",
-
+  experienceTeachingC: 10
 };
